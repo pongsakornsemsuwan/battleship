@@ -1,0 +1,18 @@
+{
+  "mongoUrl": "localhost",
+  "mongoPort": "27017",
+  "mongoDatabase": "taskworld",
+  "mongoAudomatedDatabase": "taskworld-automated",
+  "shipSize" : {
+    "battleship" : 4,
+    "cruiser" : 3,
+    "destroyer" : 2,
+    "submarine" : 1
+  },
+  "shipCount" : {
+    "battleship" : 1,
+    "cruiser" : 2,
+    "destroyer" : 3,
+    "submarine" : 4
+  }
+}
