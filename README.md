@@ -15,13 +15,13 @@
 
 `POST /api/fleet/gen` - automatically generate missing ships and place on board  
 
-__ Data Parameters__  
+__Data Parameters__  
 
 | Param | Description | required |
 |-------|:-----------:|----------|
 | (String) _id | game's _id | required |
 
-__ Return __  
+__Return__  
 
 | Result | Code | Payload |
 |-------|:-----------:|----------|
@@ -32,7 +32,7 @@ __ Return __
 
 `POST /api/fleet` - create a new ship and put it to game   
 
-__ Data Parameters__  
+__Data Parameters__  
 
 | Param | Description | required |
 |-------|:-----------:|----------|
@@ -41,7 +41,7 @@ __ Data Parameters__
 | (String) orientation | either `horizontal` or `vertical`| required |
 | (String) shipType | `battleship`, `destroyer`, `cruiser`,`submarine` | required |
 | (String) _id | game's _id | required |
-__ Return __  
+__Return__  
 
 | Result | Code | Payload |
 |-------|:-----------:|----------|
@@ -53,7 +53,7 @@ __ Return __
 ### Shooot!!
 `POST /api/shoot` - shooooot!!
 
-__ Data Parameters__  
+__Data Parameters__  
 
 | Param | Description | required |
 |-------|:-----------:|----------|
@@ -61,7 +61,7 @@ __ Data Parameters__
 | `(Number) y` | y co-ordinate (0-9)| required |
 | `(String) _id` | game's _id| required |
 
-__ Return __
+__Return__
 - __“Miss”__​ when the Attacker​ misses.
 - __“Hit”__​ when a ship has been hit but not sunk. Do NOT provide any additional info about what
 kind of ship was hit.
